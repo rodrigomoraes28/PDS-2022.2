@@ -1,0 +1,94 @@
+PDS:
+
+Livros que peguei da biblioteca: ler depois de ver o slide de cada assunto
+e fazer exercicios, exercitando a mente
+o maximo que puder, todo dia e toda semana ate a prova (14/10)
+
+assuntos
+
+antigos : MVC
+https://www.youtube.com/watch?v=ZW2JLtX4Dag ----> OK
+
+novos:
+
+Separação de interesses - encapsulamento
+Coesão e acoplamento
+Polimorfismo
+
+aberto e fechado
+solid
+
+Frota-> cai na prova
+Indio-> cai na prova
+
+
+*****ASSUNTOS DA AP1*****
+
+1-lab01.4-desacoplamentouilogica.zip
+
+Inicio: -> file:///C:/Users/user/Downloads/aula-introducao-projeto-software%20(3).pdf --> OK
+
+2-file:///C:/Users/user/Downloads/aula-grasp-2.1-criador-especialista-acoplamento-controlador-coesao%20(3).pdf --> OK
+ 
+**2-> video do GRASP – Especialista na Informação Lei de Demeterio: https://www.youtube.com/watch?v=sdEwsGpyAoY ---> OK
+
+3-file:///C:/Users/user/Downloads/aula-grasp-2.3-indirecao-variacoesprotegidas-revisao%20(3).pdf --> VER 3/10 OK (vi 5/10)
+
+
+4- file:///C:/Users/user/Downloads/aula-coesao-acoplamento%20(2).pdf				--> VER 3/10 OK ,mas dar 1 olhada denovo
+Exercicio (tribo/indio): C:\Users\user\Desktop\PDS exercicios resolvidos\lab02.5-Tribo		--> VER 3/10 
+
+
+5- file:///C:/Users/user/Downloads/aula-grasp-2.2-polimorfismo-invencaopura%20(2).pdf ---> OK
+6- file:///C:/Users/user/Downloads/aula-separacao-interesses-encapsulamento%20(1).pdf --> OK
+
+Exercicio (frota): C:\Users\user\Desktop\PDS exercicios resolvidos\frota-descricao ---> fazer
+
+Exercico: rede social --> diagrama de classes ---> fazer
+
+7- file:///C:/Users/user/Downloads/aula-ppoo-3.1-intro-srp-ocp_v4.pdf
+8- file:///C:/Users/user/Downloads/aula-ppoo-3.2-lsp_v2%20(1).pdf ---> INVERSÃO DE DEPÊNDENCIA
+
+
+TAMBEM CAI DIAGRAMAS DE SEQUENCIA E DE CLASSES ---> ver primeiros exercicios da disciplina
+
+
+7/10 -> TENTAR FAZER O CODIGO DA ATIVIDADE DE HOJE (7/10) E ANOTAR/DIZER PRA PROFESSORA AS DUVIDAS, OU OQ N SABE/N ENTENDEU
+
+
+_________________________________________________________________________________
+
+*****ASSUNTOS DA AP2*****
+
+1-
+
+28/10 - >
+
+Slides Padrao Fabrica
+
+Exercicios : C:\Users\user\Desktop\PDS exercicios resolvidos\pds_PadraoFabrica
+Exercico (Pizza) : C:\Users\user\Desktop\PDS exercicios resolvidos\pds_PadraoFabrica\Pizza_pds_26_10
+Exercicio (Veiculo): C:\Users\user\Desktop\PDS exercicios resolvidos\pds_PadraoFabrica\Veiculo_pds_4_11
+
+4/11 - >
+
+Slides Static nao sei oq
+
+
+interface direto
+interface indireto
+
+abstract
+implements
+extends
+
+
+diferença de extends pra implements (quando usar cada um e porque)
+
+nessa disciplina usaremos interfaces sempre, a ideia da disciplina é utilizar interfaces
+
+classesc concentras/abstrata/de dominio
+modulo de alto nivel -> controlador
+dominio
+
+assinatura do metodo

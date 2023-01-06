@@ -1,0 +1,33 @@
+fabrica
+singleton
+decorator
+strategy
+iterator ---> nem sei oq é mas tem que estudar
+observer ---> tem q estudar n entendi ainda
+
+AF-> 14/12 (prova horario da aula) 15:30
+
+
+sexta-feira não tem aula
+
+7/12 -> AP2
+9/12 -> trabalho (de PDS)
+
+
+
+
+Vitor --> Paulyne
+
+
+Gerente de notas --é-> Discplina
+
+
+ISujeito --é-> GerenteNotas  (no caso o vitor n fez a interface do ISujeito e nem do IObservador)
+
+
+IObservador --é-> Inscrito
+
+
+Universidade --é->
+
+Aluno --é->

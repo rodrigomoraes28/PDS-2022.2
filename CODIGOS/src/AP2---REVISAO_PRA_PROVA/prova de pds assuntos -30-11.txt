@@ -1,0 +1,14 @@
+fabrica
+singleton
+decorator
+strategy
+builder
+
+
+AF-> 14/12 (prova horario da aula) 15:30
+
+
+sexta-feira não tem aula
+
+7/12 -> AP2
+9/12 -> trabalho (de PDS)

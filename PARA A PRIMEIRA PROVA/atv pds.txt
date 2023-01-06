@@ -1,0 +1,17 @@
+Sistema:
+
+mandar uma postagem numa rede social
+
+
+mas ae recebe da minha interface um textinho que vai publicar na minha inteface
+
+
+eu escrevo uma coisa no meu aplicativo e ele oq????
+
+
+diagrama de classe
+
+
+vc faz um texto e publica em todas as redes sociais
+
+ 

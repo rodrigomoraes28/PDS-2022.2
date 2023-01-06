@@ -1,0 +1,11 @@
+title This is a title
+
+actor Usuario
+
+Usuario->Interface:codLivro, titulo, autor, anoPublicacao
+Interface->GerenciadorBiblioteca: cadastrarLivro(codLivro, titulo, autor, anoPublicacao)
+GerenciadorLivr-->*Livro:<<create>> new Livro(codLivro, titulo, autor, anoPublicacao)
+GerenciadorBiblioteca->BancoLivros: cadastrarLivro(livro: Livro)
+BancoLivros-->GerenciadorBiblioteca: true
+
+GerenciadorBiblioteca-->Interface: exibirMessagem() 

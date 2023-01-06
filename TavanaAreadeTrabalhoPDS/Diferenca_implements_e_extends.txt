@@ -1,0 +1,15 @@
+Diferença de implements x extends
+
+
+classe não é a mesma coisa que interface
+interface tem metodos que não tem escopo que poderão ser usados por 1 classe, se ela extender ela
+ou pode tb ser implementados se for por outra interface
+
+Implements:
+implements é usado quando uma classe implementa uma interface, 
+
+Extends:
+extends é quando uma classe estende uma outra classe (concreta ou abstrata) ou quando uma interface estende uma outra interface. 
+Ou seja, a keyword extends é usada para quando um tipo (classe ou interface) é derivado do seu mesmo tipo, e o implements é sempre que deseja fazer uma implementação, 
+no caso uma classe implementa uma interface.
+

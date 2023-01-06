@@ -1,0 +1,20 @@
+title Sistema de Biblioteca
+
+actor Bibliotecaria
+
+Bibliotecaria -> InterfaceAdicionarLivro: adicionarLivro(String titulo, String ISBN, String Autor)
+
+
+InterfaceAdicionarLivro -> ControladorLivro:adicionarLivro(String titulo, String ISBN, String Autor)
+
+
+ControladorLivro -> Livro: <<create>> new Livro(String titulo, String ISBN, String Autor)
+
+
+ControladorLivro -> RepositorioLivros:adicionarLivro(Livro livro)
+
+ControladorLivro <-RepositorioLivros: true
+
+InterfaceAdicionarLivro <-ControladorLivro: true
+
+InterfaceAdicionarLivro ->InterfaceAdicionarLivro:imprimaMensagemLivroAdicionadoComSucesso()

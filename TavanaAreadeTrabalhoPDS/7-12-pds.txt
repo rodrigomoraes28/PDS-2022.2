@@ -1,0 +1,16 @@
+Tempo:
+
+
+13:55
+
+começou
+
+
+padrões:
+
+1-fabrica --> uns 10 min
+2-strategy --> uns 10 min ou 7
+3-decorator ---> uns 5 ou 6 min
+4-observer --->
+5-singleton
+6-iterator

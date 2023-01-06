@@ -1,0 +1,128 @@
+Treino de PDS:
+
+Metodo Fabrica:
+Resolvido em 15 minutos (13:38~13:50) -> padrao fabrica
+
+C:\Users\user\Desktop\PDS exercicios resolvidos\pds_PadraoFabrica\treinando_denovo2_16_11
+
+13:55-14:10
+
+nao consegui fazer totalmente sozinho o do padrao estrategia
+
+
+---> precisei de ajuda na hora de montar o carrinho
+
+--> ficar atento a rever essa parte aí do carrinho na proxima vez
+que for estudar
+
+o que consegui fazer no escopo do Carrinho foi isso aqui:
+
+ public Carrinho(IStrategy estrategia){
+    this.produtos = new ArrayList<Produto>(); //de certo modo ta certo, mas faltou
+incializar o IStrategy
+
+  }
+
+
+  public IStrategy escolheFrete(String estategia){
+
+    return this.estrategia.calculaFrete(produtos);
+
+  }
+
+
+
+---> o add Produto olha la como que faz
+
+ArrayList<TipoCoisa> coisassss
+INomedaInterface nomeinterfaceeeeeee;
+
+public void adicionaCoisa(TipoCoisa coisa){
+	this.coisassss.add(coisa);	//vc adicionou o objeto coisa que eh do TipoCoisa no ArrayList la de cima chamado coisassss, assim que cria 1 metodo pra 1 classe
+que adiciona os bgl no arraylis td vez q vc chamar ele, e ah, precisa ser do tipo void esse metodo ae
+}
+
+e o set frete é mt facil, no caso setMuda algumacoisa mas geralmente eh 
+
+public void setNomedaInterface(INomedaInterface nomeinterface){ //tu cria 1 metodo la e qnd vc preencher esse metodo la na main com 1 objeto do tipo INomedaInterface ele vai trocar
+this.nomeinterfaceeeeeee = nomeinterface;
+}
+
+
+---> 14:34 acabei de estudar e entender melhor o Strategy
+uns 35 min pra entender e aprender esse metodo (so as partes que eu tava me bugando)
+
+
+
+----> falta padrao singleton ---> estudarei em 4/12
+
+
+4/12
+
+13:51- 13:58
+Padrão observer com boolean
+
+(questao da fornada)
+
+
+
+padrao obsever
+
+
+
+Padrao decorator:
+
+
+
+Padrão fabrica:
+
+14:02- 14:15 
+terminei
+
+tudo certo ate entao
+
+usei o
+
+public class Cliente implements IFabrica{
+
+pra implemntar uma função de IFabrica
+
+
+nao sei se fiz certo mas depois pergunto pro daniel, pro ze victor, pro victor martins e pro herik
+
+
+5/12->
+
+FAZER O PADRAO DECORATOR
+
+REVER O PADRAO STRATEGY
+
+TENTAR FAZER O PADRAO SINGLETON EM UMA CLASSE ---> tentei fazer no 
+C:\Users\user\Desktop\PDS exercicios resolvidos\CODIGOS\src\pds_PadraoFabrica\Pizza_pds_26_10
+
+na FabricaNori
+
+E VER NO FINAL DO DIA O ITERATOR
+
+
+Iterator
+16:11
+
+
+16:23
+
+so ficou com um problema na parte ListaPaciente quando foi converter para array
+
+    return new IteradorPaciente.toArray(this.pacientes);
+
+			return new IteratorListaPaciente(this.pacientes.toArray());
+
+
+
+um erro ocorreu
+
+
+
+21:16 - 21:23
+
+fiz o decorator aq so pra testar sem olhar e parece que deu certo

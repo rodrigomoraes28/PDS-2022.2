@@ -1,0 +1,15 @@
+public class InterfaceLivro{
+    
+        // public InterfaceLivro{
+            
+        // }
+
+        public void pedeInformacoesLivro(){
+            //dar o input perguntando o nome do livro,etc etc   
+        } // le as informações do livro
+        private void addLivro(){
+            ControladorLivro controladordelivro = new ControladorLivro();
+            controladordelivro.addLivro(nome,ISBN,autor);
+        }
+
+}

@@ -1,0 +1,47 @@
+Exercicio PDS:
+
+• Exercício (7 min): Distribuir responsabilidades da interface
+– Identifique grupos de responsabilidades
+– Separe em novas interfaces e escolha bons nomes
+
+
+public interface SuperMega {
+(1) public void iniciaPilhaComandos();
+(2) public void iniciaRelatorio();
+(3) public void iniciaDadosGlobais();
+(1) public void empilhaComando(Object comando);
+(2) public void formataRelatorio(Object relatorio);
+(2) public void imprimiRelatorio(Object relatorio);
+(1) public void desempilhaComando();  ----> mudou de void pra Object
+(1) public void finalizaPilhaComandos();
+(3) public void finalizaDadosGlobais();
+}
+ 
+
+interface CriacaoDestruicaoPilha{
+public void incializaPilha();
+public void finalizaPilha();
+}
+
+
+interface ManipulaPilha{
+public void empilhaComando(Object comando);
+public Object desempilhaComando(); ----> mudou de void pra Object
+}
+
+
+interface DadosRelatorio{
+public void iniciarRelatorio();
+}
+
+interface visualizarRelatorio{
+public void formatarRelatorio(Object relatorio);
+public void imprimirRelatorio(Object relatorio);
+}
+
+
+Acoplamento
+• Acoplamento é o grau que um módulo depende de cada um dos 
+outros módulos de um sistema
+
+

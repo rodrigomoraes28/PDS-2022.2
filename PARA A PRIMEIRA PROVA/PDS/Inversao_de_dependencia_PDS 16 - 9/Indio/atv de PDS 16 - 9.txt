@@ -1,0 +1,145 @@
+public class Cacique extends Indio{
+	public Cacique(String nome) { 
+		super(nome); 
+	} 
+	public void adicionaAnimalNaTribo(Tribo tribo, 
+			String nome, String especie){ 
+		if 
+		(tribo.getCacique().getNome().equals(this.getNome())){ 
+			tribo.adicionaAnimal(new 
+					Animal(especie,nome)); 
+		} 
+	} 
+}
+
+
+
+
+
+
+
+
+
+
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Animal {
+	private String nome; 
+	private String especie; 
+	public Animal(String aEspecie, String aNome) 
+	{ 
+		especie = aEspecie; 
+		nome = aNome; 
+	} 
+	public String getEspecie() { 
+		return especie; 
+	} 
+	public boolean estouNestaTribo(Tribo tribo){ 
+		ArrayList<Animal> animais = tribo.getAnimais(); 
+		boolean achou=false; 
+		Iterator<Animal> it = animais.iterator(); 
+		while ((it.hasNext()) && (!achou)){ 
+			if (it.next().equals(this)){ 
+				achou = true; 
+			} 
+		} 
+		return achou; 
+	} 
+	public boolean equals(Object obj){ 
+		Animal a = (Animal) obj; 
+		if  
+		((this.nome.equalsIgnoreCase(a.nome)) && 
+				(this
+						.especie.equalsIgnoreCase(a.especie))){ 
+			return true; 
+		} 
+		return false; 
+	} 
+	public String getNome() { 
+		return nome; 
+	} 
+	public void setNome(String nome) { 
+		this.nome = nome; 
+	} 
+}
+
+public class Troca {
+	public static void troca(Tribo tribo1, Animal 
+			animal1, Tribo tribo2, Animal animal2){ 
+		tribo1.removeAnimal(animal1); 
+		tribo1.adicionaAnimal(animal2); 
+		tribo2.removeAnimal(animal2); 
+		tribo2.adicionaAnimal(animal1); 
+	} 
+}
+
+import java.util.ArrayList;
+
+public class Tribo {
+	private ArrayList<Animal> animais; 
+	private ArrayList<Indio> indios; 
+	private Cacique cacique; 
+	public Tribo() { 
+		animais = new ArrayList<Animal>(); 
+	} 
+	public void adicionaAnimal(Animal animal) { 
+		animais.add(animal); 
+	} 
+	public int getNumPatas() { 
+		int result = 0; 
+		for (Animal a : animais) { 
+			if (a.getEspecie().equals("Pato")) { 
+				result += 2; 
+			} else if (a.getEspecie().equals("Cachorro")) { 
+				result += 4; 
+			} else { 
+				// ? 
+			} 
+		} 
+		return result; 
+	} 
+	public ArrayList<Animal> getAnimais() { 
+		return animais; 
+	} 
+	public void setAnimais(ArrayList<Animal> 
+	animais) { 
+		this.animais = animais; 
+	} 
+	public void removeAnimal(Animal animal) { 
+		this.animais.remove(animal); 
+	} 
+	public void addIndio(Indio indio) { 
+		this.indios.add(indio); 
+	} 
+	public ArrayList<Indio> getIndios() { 
+		return indios; 
+	} 
+	public void setCacique(Cacique cacique) { 
+		this.cacique = cacique; 
+	} 
+	public Cacique getCacique() { 
+		return this.cacique; 
+	} 
+}
+
+
+public class Indio {
+	private String nome; 
+	public Indio(String nome){ 
+		this.nome = nome; 
+	} 
+	public String getNome() { 
+		return nome; 
+	} 
+	public void setNome(String nome) { 
+		this.nome = nome; 
+	} 
+}
+
+
+
+
+
+

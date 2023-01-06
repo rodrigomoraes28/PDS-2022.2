@@ -1,0 +1,110 @@
+• Diretrizes e Padrões
+– Baixo hiato representacional (diretriz)
+
+– Criador
+• Foco no início do ciclo de vida dos objetos
+
+– Especialista na Informação
+• Foco no encapsulamento
+
+– Separação da Visão e Modelo (diretriz)
+
+– Controlador
+• Foco em separar interação com usuário e lógica de negócios
+
+– Acoplamento
+• Foco no impacto da mudança
+
+– Coesão
+• Foco em diminuir a complexidade
+
+
+Hiato = Lacuna/diferença
+– Baixo hiato = pouca diferença
+• Conceitos do domínio real inspiram os objetos de 
+software, mas não são a mesma coisa
+• O mais próximo que ficar do modelo de domínio, melhor
+• Diminuição do hiato representacional é diretriz básica da 
+tecnologia de objetos
+
+
+
+
+
+
+GRASP – Criador
+• Exemplo
+– Sistema: Blog
+– Modelo de domínio
+• Blog contém posts
+• Post possuem título, corpo do texto, data e hora de 
+publicação e comentários
+• Comentário é composto por autor e texto
+– Quem cria um objeto 'Comentario' no sistema?
+
+
+resposta: os Posts criam o objeto "Comentario" no sistema
+
+
+
+GRASP – Especialista na Informação
+
+• Discussão:
+– Sistema: Comércio Eletrônico
+
+– Modelo de Domínio
+• Portal recebe pedidos, que contêm um ou mais produtos
+• Cupom de desconto podem ser vinculados ao pedido
+• A partir de determinado valor do pedido, o frete é grátis
+• Frete é calculado baseado no peso dos produtos e no CEP
+– Quem armazena o frete?
+
+Resposta : o Pedido
+ps: perguntar pra Paulyne como faz essa pra ver se eu entendi mesmo
+
+
+class Portal{
+
+public funcition(private Pedido pedido){
+}
+
+if(pedido >= x){
+
+
+
+}
+class Pedido{
+
+String produto;
+CupomDesconto cupomdesconto;
+
+
+---> acho que aqui deveria armazenar o frete
+
+}
+
+class Produto{
+
+float peso;
+
+}
+
+class CupomDesconto{
+
+}
+
+{
+
+
+GRASP – Controlador
+• Problema: Qual objeto recebe uma operação do sistema, 
+além da camada de UI?
+– Se objetos UI não estão acoplados com objetos do 
+domíno, quem está no meio do caminho?
+• Solução: Atribuir a responsabilidade a um objeto que 
+represente uma dessas escolhas:
+– Um subsistema, o sistema inteiro, ou um objeto “raiz”
+– Um caso de uso que contenha a operação
+
+
+RESPOSTA: nao entendi isso

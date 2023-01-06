@@ -1,0 +1,52 @@
+1) (2,0 pontos) Aponte os problemas do código abaixo. Que princípios ele viola? O que você 
+precisaria fazer para torná-lo correto?
+
+
+No caso Cacique não deveria ser uma classe, pois ele é um "cargo" que um indio pode exercer
+
+E ele acaba violando o principio de responsabilidade unica, pois a classe cacique alem de
+ter o construtor da classe indio ela tambem acaba adicionando um animal na tribo (uma responsabilidade a mais para a classe),
+
+essa responsabilidade de adicionar um animal na tribo deveria ser colocada na classe Tribo
+na qual a classe Tribo teria um atributo do tipo Indio que poderia ter como nome dessa variavel cacique
+com um set cacique que tornaria um indio um cacique e dae teria esse metodo adicionaAnimalNaTribo sem precisar ter como parametro Tribo, ja que
+ja estaria na classe tribo
+
+E do jeito que é mostrado na questão é meio não muito seguro deixar essa responsabilidade de adicionar animal nessa classe cacique, o ideal
+seria colocar na classe Tribo mesmo
+
+______________________________________________________________________________
+
+2) (2,0 pontos) Levando em consideração o código abaixo, aponte qual princípio ele viola e 
+descreva o que precisaria ser feito para corrigir o problema. Obs: não precisa reescrever o 
+código, apenas apontar os erros e as soluções.
+
+Principio da inversão de dependencia -> 
+
+
+O jogador deveria ter uma interface IJogador
+para que outras classes concentras como JogadorA, JogadorB, JogadorC
+pudesse implementar essa classe 
+
+e o codigo da CasaTabuleiro nao depedesse de uma classe concentra e sim de 
+uma abstração, no caso seria a Interface de Jogador, IJogador
+
+e está havendo um impor "import atores.Jogador"
+na qual Jogador nem é usado, um import desnecessário 
+
+
+______________________________________________________________________________
+
+Questão 3)
+
+(2,0 pontos) Lembrando do Princípio de Susbtituição de Liskov responda quais das opções 
+abaixo modela de melhor forma o problema de herança de formas geométricas. Justifique 
+sua resposta.
+
+
+A da direita, porque o quadrado e o retangulo sao figuras geometricas diferentes, e com isso tem escopos e formas diferentes,
+assim na figura da direita eles implementariam os metodos da interface Forma e se desenhariam cada um (a classe Quadrado
+e a classe Retangulo) com seu escopo
+
+
+

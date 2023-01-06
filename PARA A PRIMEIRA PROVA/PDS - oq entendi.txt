@@ -1,0 +1,78 @@
+Coesão ->
+quanto mais responsabilidade um modulo tem menos coesão ele tem
+
+EU: entendi que quanto mais coisa vc poe pra um modulo fazer menos coesao ele tem
+ou seja, pra ter mais coesao ele tem que fazer menos coisas, tipo mais especificio
+
+
+RUIM:
+
+• Coincidente (pior)
+– Nenhuma correlação, apenas um agrupamento de 
+responsabilidades
+
+• Temporal (evitar)
+– As responsabilidades são acionadas em períodos ou 
+frequências semelhantes 
+
+
+AS VEZES PODE USAR:
+
+• Procedural (usar com moderação)
+– As responsabilidades são acionadas em ordem, mas 
+não compartilham dados
+
+BOM: 
+
+• Comunicacional (usar)
+– As responsabilidades são compartilham dados comuns 
+ou a mesma estrutura de dados (que está escondida)
+
+• Sequencial (usar)
+– As responsabilidades fornecem dados de saídas para 
+as demais, de forma sequencial
+
+
+MELHOR DE TODAS:
+
+• Funcional (SUPRA SUMO)
+– Módulos possuem responsabilidades muita bem 
+definidas e enxutas
+– Apenas um “problema”
+
+public Class EnxagueDeLataria {
+public void enxaguar(Carro carro);
+}
+
+
+Acoplamento:
+comunicação entre dominios
+
+um dominio é uma junção de funcionalidades similares
+
+quanto menos comunicação melhor
+
+
+
+Estudar: Separação de interesses - encapsulamento	
+
+
+
+GRASP – Polimorfismo
+
+
+Nao usamos o MVC, e o C de controller é de EDC (algo assim)
+ver depois o q eh esse Controller que usa em PDS --> perguntar depois no final da aula
+
+
+
+GRASP -> Variações protegidas
+se tem chance de mudar cria uma interface ---> n entendi mt bem // agora ja entendi
+
+
+o meio termo entre a url https://ufc.com e o ip 192.485.28471.4 se chama interface (é uma interface OO e não  uma inteface grafica)
+
+se mudar o ip (ou seja se mudar o servidor) n tem prblm pq a interface faz o (é um mediador , uma abstração do sistema) meio termo entre a url e o servidor
+
+e essa interface pode ser uma API por exemplo e atualizar uma API nunca é algo trivial
+

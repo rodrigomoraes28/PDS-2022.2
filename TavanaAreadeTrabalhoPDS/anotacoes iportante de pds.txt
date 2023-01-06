@@ -1,0 +1,26 @@
+
+Vitor --> Paulyne
+
+
+Gerente de notas --é-> Discplina
+
+
+Sujeito --é-> GerenteNotas  (no caso o vitor n fez a interface do ISujeito e nem do IObservador)
+
+
+IObservador --é-> Inscrito
+
+
+Universidade --é->
+
+Aluno --é->
+
+
+
+    System.out.println("O Preço da pizza de mussarela é: " + cliente.criaPizza("mussarela").lePreco());
+
+
+  public Pizza criaPizza(String tipo){
+        Pizza pizza = this.factory.criarPizza(tipo); 
+        return pizza;
+    }

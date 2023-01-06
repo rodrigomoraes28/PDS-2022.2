@@ -1,0 +1,44 @@
+dia 7/12 -> AP2
+dia 9/12-> trabalho entrega
+
+PRA ESUTDAR PRA AP2 e a AF:
+https://youtube.com/playlist?list=PLbIBj8vQhvm0VY5YrMrafWaQY2EnJ3j8H
+
+
+AF ---> 14/12
+
+TRABALHO:
+
+-Código e diagrama de classe
+-descrição de requisitos ---> explicando por que usaram cada padrão de projeto e tb eh o mesmo documento que diz o que é pra fazer
+-projeto em java
+-pode ser banco de dados em memoria (nao precisa usar banco de dados)
+
+Vai avaliar:
+-organização dos pacotes
+-padrões de projeto
+
+-separação interface,controller nao sei oq
+
+-polimorfismo bonitinho
+
+
+-vc q escolhe quais padrões serão utilizados
+-usar pelo menos uns 4 (qualquer um que exista)
+
+
+Tema:
+-Banco Imobiliario todo em java
+-Tem
+
+____________________________________________________________
+
+
+AP2:
+
+-Os padrões de projeto que ela ensinou e vai ensinar ate dia 25/11
+
+gang dos 4
+fabrica,singleton,decorator de hoje 
+
+meso bgl da ap1 e dia 2 a gente faz os exercicios e tals
